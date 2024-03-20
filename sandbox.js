@@ -1,10 +1,14 @@
-var character = 'thurain';
-var age = 20;
-var isBlackBelt = false;
-character = 'duat';
-age = 23;
-isBlackBelt = true;
-var circ = function (diameter) {
-    return diameter * Math.PI;
+var names = ['thurain', 'duat', 'nanu'];
+names.push('bawe');
+var age = [20, 23, 40];
+age.push(26);
+var mixed = ['thurain', 20, 'duat', 23, true];
+mixed.push('nanu');
+mixed.push(40);
+var thurain = {
+    name: 'thurain',
+    age: 20,
+    gender: true
 };
-console.log(circ(7));
+thurain.name = 'duat';
+thurain.age = 23;

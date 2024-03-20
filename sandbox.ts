@@ -1,13 +1,21 @@
-let character='thurain';
-let age = 20;
-let isBlackBelt = false;
+let names = ['thurain', 'duat', 'nanu'];
 
-character = 'duat';
-age = 23;
-isBlackBelt = true;
+names.push('bawe');
 
-const circ = (diameter) =>{
-    return diameter*Math.PI;
+let age = [20, 23, 40];
+
+age.push(26);
+
+let mixed = ['thurain',20,'duat',23,true]
+
+mixed.push('nanu');
+mixed.push(40);
+
+let thurain={
+    name:'thurain',
+    age:20,
+    gender:true
 }
 
-console.log(circ(7));
+thurain.name = 'duat';
+thurain.age= 23;
