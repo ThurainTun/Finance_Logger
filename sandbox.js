@@ -1,7 +1,10 @@
-var characters = "thurain";
-console.log(characters);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
+var character = 'thurain';
+var age = 20;
+var isBlackBelt = false;
+character = 'duat';
+age = 23;
+isBlackBelt = true;
+var circ = function (diameter) {
+    return diameter * Math.PI;
+};
+console.log(circ(7));
