@@ -1,21 +1,25 @@
-let names = ['thurain', 'duat', 'nanu'];
+let character: string;
+let age: number;
+let isLoggedIn: true;
 
-names.push('bawe');
+let ninjas: string[] = [];
 
-let age = [20, 23, 40];
+ninjas.push('thurain');
 
-age.push(26);
+let mixed: (string | number | boolean)[] = [];
+mixed.push('thurain');
+mixed.push(20);
+mixed.push(true);
 
-let mixed = ['thurain',20,'duat',23,true]
+console.log(mixed);
 
-mixed.push('nanu');
-mixed.push(40);
+let thurainDev: object;
+thurainDev = { name: 'thurain', age: 20 };
 
-let thurain={
-    name:'thurain',
-    age:20,
-    gender:true
+let thurainTwo: {
+    name: string,
+    age: number,
+    isBelt: boolean
 }
 
-thurain.name = 'duat';
-thurain.age= 23;
+thurainTwo = { name: 'duat', age: 23, isBelt: true }

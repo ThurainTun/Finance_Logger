@@ -1,14 +1,14 @@
-var names = ['thurain', 'duat', 'nanu'];
-names.push('bawe');
-var age = [20, 23, 40];
-age.push(26);
-var mixed = ['thurain', 20, 'duat', 23, true];
-mixed.push('nanu');
-mixed.push(40);
-var thurain = {
-    name: 'thurain',
-    age: 20,
-    gender: true
-};
-thurain.name = 'duat';
-thurain.age = 23;
+var character;
+var age;
+var isLoggedIn;
+var ninjas = [];
+ninjas.push('thurain');
+var mixed = [];
+mixed.push('thurain');
+mixed.push(20);
+mixed.push(true);
+console.log(mixed);
+var thurainDev;
+thurainDev = { name: 'thurain', age: 20 };
+var thurainTwo;
+thurainTwo = { name: 'duat', age: 23, isBelt: true };
